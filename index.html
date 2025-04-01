@@ -42,22 +42,10 @@
             margin: auto;
             text-align: left;
         }
-        .form-container input, .form-container button {
+        .form-container iframe {
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .form-container button {
-            background-color: #3498db;
-            color: white;
+            height: 500px;
             border: none;
-            font-size: 18px;
-            cursor: pointer;
-        }
-        .form-container button:hover {
-            background-color: #2980b9;
         }
     </style>
 </head>
@@ -74,12 +62,7 @@
         </div>
         <div class="form-container">
             <h3>Sign Up for More Information</h3>
-            <form action="YOUR_GOOGLE_FORM_URL" method="post" target="_blank">
-                <input type="text" name="entry.YOUR_NAME_ENTRY_ID" placeholder="Your Name" required>
-                <input type="tel" name="entry.YOUR_PHONE_ENTRY_ID" placeholder="Your Phone Number" required>
-                <input type="email" name="entry.YOUR_EMAIL_ENTRY_ID" placeholder="Your Email" required>
-                <button type="submit">Submit</button>
-            </form>
+            <iframe src="https://docs.google.com/forms/d/1XM6Yjg0sx45Q4f_L7YSMXNE2XkkUKDVyqSVOMLUlmtE/edit"></iframe>
         </div>
     </div>
 </body>
